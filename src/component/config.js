@@ -17,6 +17,11 @@ export const config = {
     "linkedin": {
       "required": false,
       "maxLength": 200
+    },
+    
+    "pincode": {
+      "required": true,
+      "pattern": "^[0-9]{6}$"
     }
   },
   "ui": {
